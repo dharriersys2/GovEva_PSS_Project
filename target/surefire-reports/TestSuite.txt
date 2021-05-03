@@ -1,0 +1,101 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 768.593 s <<< FAILURE! - in TestSuite
+com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.addUpsiSharer  Time elapsed: 9.314 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button class="btn btn-sm btn-primary mb-2" type="button">...</button> is not clickable at point (795, 103). Other element would receive the click: <div _ngcontent-c1="" class="cat__top-bar__right">...</div>
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HARRIERLAPTOP-6', ip: '192.168.88.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:60471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a198f1df1c941ceacd4dc65c772cc6ff
+	at com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.addUpsiSharer(TC_Upsi_SharerTest.java:51)
+
+com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.updateDetailsUpsiSharer  Time elapsed: 31.751 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='Edit' and @type='button' and @class = 'btn-sm btn btn-warning']"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HARRIERLAPTOP-6', ip: '192.168.88.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d85b0badf6190441cb0510b3dc8e01e5
+*** Element info: {Using=xpath, value=//button[@title='Edit' and @type='button' and @class = 'btn-sm btn btn-warning']}
+	at com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.updateDetailsUpsiSharer(TC_Upsi_SharerTest.java:150)
+
+com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.clickOnDownloadFile  Time elapsed: 28.969 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HARRIERLAPTOP-6', ip: '192.168.88.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:60643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b92c12712498f40a7fb43766f56c12b5
+	at com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.clickOnDownloadFile(TC_Upsi_SharerTest.java:232)
+
+com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.checkSharerHistory  Time elapsed: 29.729 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='History']"}
+  (Session info: chrome=90.0.4430.93)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HARRIERLAPTOP-6', ip: '192.168.88.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:60742}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88cc274d70c6f15522863dfa6d177ad6
+*** Element info: {Using=xpath, value=//button[@title='History']}
+	at com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.checkSharerHistory(TC_Upsi_SharerTest.java:272)
+
+com.goveva.qa.upsiTestCases.TC_Upsi_SharerTest.setUp[chrome](0)  Time elapsed: 631.677 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=90.0.4430.93)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HARRIERLAPTOP-6', ip: '192.168.88.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0054C013+2474003]
+	Ordinal0 [0x004E29C1+2042305]
+	Ordinal0 [0x003F2F68+1060712]
+	Ordinal0 [0x003E5652+1005138]
+	Ordinal0 [0x003E4258+1000024]
+	Ordinal0 [0x003E3DA5+998821]
+	Ordinal0 [0x003EA9C5+1026501]
+	Ordinal0 [0x003E3D31+998705]
+	Ordinal0 [0x003E4FAF+1003439]
+	Ordinal0 [0x003E4258+1000024]
+	Ordinal0 [0x003E3DA5+998821]
+	Ordinal0 [0x003E9DBC+1023420]
+	Ordinal0 [0x003E3D31+998705]
+	Ordinal0 [0x003E4FAF+1003439]
+	Ordinal0 [0x003E4258+1000024]
+	Ordinal0 [0x003E3DA5+998821]
+	Ordinal0 [0x003DFA5D+981597]
+	Ordinal0 [0x003E3D31+998705]
+	Ordinal0 [0x003E3A85+998021]
+	Ordinal0 [0x003E3829+997417]
+	Ordinal0 [0x003F4090+1065104]
+	Ordinal0 [0x0043B798+1357720]
+	Ordinal0 [0x00438FAA+1347498]
+	Ordinal0 [0x004366DB+1337051]
+	Ordinal0 [0x00413427+1192999]
+	Ordinal0 [0x004142EE+1196782]
+	Ordinal0 [0x00414279+1196665]
+	GetHandleVerifier [0x006D96FC+1590332]
+	GetHandleVerifier [0x00788614+2306900]
+	GetHandleVerifier [0x005D9E93+543699]
+	GetHandleVerifier [0x005D92CE+540686]
+	Ordinal0 [0x004E86BA+2066106]
+	Ordinal0 [0x004ED1C8+2085320]
+	Ordinal0 [0x004ED308+2085640]
+	Ordinal0 [0x004F67F3+2123763]
+	BaseThreadInitThunk [0x74DEFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F87A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F87A1E+238]
+
+
